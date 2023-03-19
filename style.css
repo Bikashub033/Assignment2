@@ -1,13 +1,22 @@
-body{
-    background-color: lightblue;
-    
+P {
+    text-align: center;
+    color: red;
 }
-h1{
+/*---id selector----*/
+#paral {
+    text-align: left;
     color: blue;
 
-   
 }
-label{
-    font-size: bold;
-    color: black;
+/*---class selector----*/
+.center {
+    text-align: center;
+    color: blueviolet;
+
 }
+/*---Universal selector----*/
+* {
+    text-align: right;
+    color: brown;
+}
+
